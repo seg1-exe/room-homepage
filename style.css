@@ -1,0 +1,155 @@
+*{
+    --dark-gray: hsl(0, 0%, 63%);
+    --black:hsl(0, 0%, 0%);
+    --white: hsl(0, 0%, 100%);
+    --very-dark-gray: hsl(0, 0%, 27%);
+}
+
+body{
+    font-family: 'League Spartan', sans-serif;
+    background-color: var(--dark-gray);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+#app{
+    width: 1440px;
+    height: 800px;
+    background-color: var(--white);
+}
+
+.hidden{
+    display: none;
+}
+
+.attribution{
+    font-size: 15px;
+    text-align: center;
+    color: var(--white);
+    padding: 20px 0;
+}
+
+nav{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 362px;
+    margin: 80px;
+} 
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 57px;
+    list-style: none; 
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1.2rem;
+    margin-right: 32px;
+    font-weight: 700;
+    text-transform: lowercase;   
+}
+
+nav>ul>li>a:hover{
+    text-decoration: underline;
+}
+
+
+.page-top{
+    display: flex;
+    height: 534px;
+}
+
+.active{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.active>h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--black);
+    margin-bottom: 30px;
+}
+
+.active>p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 25px;
+    color: var(--dark-gray);
+}
+
+.active>button{
+    color: var(--black);
+    background-color: var(--white);
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    align-self: flex-start;
+    font-weight: 500;
+    letter-spacing: 10px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.active>button:hover{
+    color: var(--dark-gray);
+}
+
+.page-top-arrows{
+    position: absolute;
+    top: 528px;
+    display: flex;
+}
+
+.page-top-arrows>button{
+    background-color: var(--black);
+    padding: 20px 25px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    cursor: pointer;
+}
+
+.page-top-arrows>button:hover{
+    background-color: var(--very-dark-gray);
+}
+
+.page-bottom{
+    display: flex;
+    height: 266px;
+}
+
+.page-bottom-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.page-bottom-content>h2{
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: var(--black);
+    margin-bottom: 30px;
+}
+
+.page-bottom-content>p{
+    font-size: 1rem;
+    line-height: 20px;
+    font-weight: 400;
+    color: var(--dark-gray);
+}
