@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/seg1-exe/room-homepage)
-- Live Site URL: [Add live site URL here](https://seg1-exe.github.io/room-homepage/)
+- Solution URL: [Github](https://github.com/seg1-exe/room-homepage)
+- Live Site URL: [Github pages](https://seg1-exe.github.io/room-homepage/)
 
 ## My process
 
